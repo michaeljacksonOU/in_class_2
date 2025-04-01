@@ -1,0 +1,89 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+.cat-box,
+.dog-box,
+.cow-box {
+  display: none;
+}
+
+.img-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-box .cat-box {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-box .cat-box button {
+  background-color: blue;
+  color: white;
+  width: 200px;
+  margin-top: 10px;
+  height: 25px;
+  font-size: 20px;
+}
+
+.img-box .dog-box {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-box .dog-box button {
+  background-color: blue;
+  color: white;
+  width: 200px;
+  margin-top: 10px;
+  height: 25px;
+  font-size: 20px;
+}
+
+.img-box .cow-box {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-box .cow-box button {
+  background-color: blue;
+  color: white;
+  width: 200px;
+  margin-top: 10px;
+  height: 25px;
+  font-size: 20px;
+}
+
+.visible {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 60px;
+  
+}
+
+.buttons #cat-button{
+    margin-right: 700px;
+}
+
+.buttons #dog-button{
+    margin-right: 700px;
+}
+
